@@ -143,9 +143,9 @@ h1 {
     transition: opacity 1s ease-in-out;
 }
 
-@media only screen and (max-width: 600px) {
+@supports (-webkit-touch-callout: none) {
 
-    /* Điều kiện cho iPhone 14 */
+    /* CSS specific to iOS devices */
     body {
         position: absolute;
         top: 50%;
