@@ -21,3 +21,19 @@ window.addEventListener('DOMContentLoaded', function () {
     showImage(currentIndex);
     setInterval(showNextImage, 1000);
 });
+
+
+@media only screen and(max - device - width: 767px) {
+    html,
+        body {
+        width: 100 %;
+        height: 100 %;
+    }
+
+    body {
+        position: absolute;
+        top: 50 %;
+        left: 50 %;
+        transform: translate(-50 %, -50 %);
+    }
+}
